@@ -1,10 +1,10 @@
 import React from "react";
-import '@/assets/styles/globals.css';
+import "@/assets/styles/globals.css";
 
 export const metadata = {
-    title: 'PropertyPulse | Find the perfect property',
-    description: 'Find the home for you',
-    keywords: 'rentals, purchases, home buying, real estate',
+  title: "PropertyPulse | Find the perfect property",
+  description: "Find the home for you",
+  keywords: "rentals, purchases, home buying, real estate",
 };
 
 const mainLayout = ({ children }) => {
