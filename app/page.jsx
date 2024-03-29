@@ -1,11 +1,15 @@
 import React from "react";
-import Link from 'next/link';
+import Link from "next/link";
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
 
 const homePage = () => {
-  return <div>
-    <h1 className="text-5xl">Welcome</h1>
-      <Link href="/properties">Show properties</Link>
-  </div>;
+  return (
+    <>
+      <Hero />
+      <InfoBoxes />
+    </>
+  );
 };
 
 export default homePage;
